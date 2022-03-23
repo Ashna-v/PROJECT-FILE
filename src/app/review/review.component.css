@@ -1,0 +1,26 @@
+.card {
+    margin-left: 5rem;
+    margin-top: 3rem;
+    border-color: #130f40;
+    border: 2px solid #130f40;
+
+    
+}
+
+.card:hover{
+    border-color: #ff7800;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: #130f40;
+}
+span{
+    color: #ff7800;
+}
+
+.fas{
+    color: #ff7800;
+}
+

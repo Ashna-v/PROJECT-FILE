@@ -1,0 +1,36 @@
+.navbar-nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15rem;
+
+}
+
+.fas {
+    color: #ff7800;
+}
+
+.navbar{
+    background: #fff;
+}
+
+.navbar-brand{
+    padding-left: 5rem;
+    color: #130f40;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#nav1{
+    color: #130f40;
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
+}
+
+#nav1:hover{
+    color: #ff7800;
+
+}
+
+
+
+

@@ -1,0 +1,217 @@
+
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color:#fff;
+    padding: 20px 20px;
+}
+
+.fas{
+    color: #ff7800;
+}
+
+.fa{
+    color: #ff7800;
+
+}
+
+.fa:hover{
+    color: #130f40;
+}
+
+h1 
+{
+    font-weight: bold;
+    color: #130f40;
+    font-size: 25px;
+}
+p 
+{
+    color: #130f40;
+    font-size: 15px;
+}
+a 
+{
+    color: #130f40;
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 17px;
+    
+}
+a:hover 
+{
+    color: #ff7800;
+}
+
+
+i 
+{
+    padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    height: auto;
+    padding-top: 10px;
+    width: 100vw;
+    color: #130f40;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1rem;
+    color: #130f40;
+}
+
+p{
+    max-width: 500px;
+    margin: 5px auto;
+    line-height: 18px;
+    font-size: 14px;
+    color: #130f40;
+}
+
+.social-icon{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.1rem 0 0.1rem 0;
+
+
+}
+
+.social-icon li{
+    margin: 0 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: #ff7800;
+    border: 1.1px solid #130f40;
+    padding: 8px;
+    border-radius: 50%;
+    width: 35px;
+
+}
+
+
+
+.footer-bottom{
+    background: white;
+    width: 100vw;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.footer-bottom p a{
+    color: #ff7800;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.fas{
+    color: #ff7800;
+}
+
+@media (max-width:50px){
+    .footer-menu ul{
+        display: inline;
+    }
+
+    .footer-menu ul li{
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */

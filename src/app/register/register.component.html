@@ -1,0 +1,44 @@
+<section>
+    <div class="imgbx">
+       <img src="../../assets/blue.jpeg  ">
+
+    </div>
+    <div class="contentbx">
+       <div class="formbx">
+          <h2>SIGN UP <i class="fas fa-user-plus"></i></h2>
+          <form name="" action="" method="post">
+             <div class="inputbx">
+                <span>Name</span>
+                <input type="text" name="name" #name="ngModel" ngModel required>
+                <div style="color: red;" *ngIf="!name.valid && name.touched">Please enter your name</div>
+
+             </div>
+             <div class="inputbx">
+                <span>username</span>
+                <input type="text" name="username" #username="ngModel" ngModel required>
+                <div style="color: red;" *ngIf="!username.valid && username.touched">Please enter username</div>
+
+
+             </div>
+             <div class="inputbx">
+                <span>password</span>
+                <input type="password" name="password"  required>
+             </div>
+             <div class="inputbx">
+                <span>confirm password</span>
+                <input type="password" name="" required>
+            </div>
+            
+            <div class="inputbx">
+                <input type="submit" value="Sign Up" name="">
+             </div>
+             
+
+
+
+          </form>
+
+       </div>
+
+    </div>
+ </section>

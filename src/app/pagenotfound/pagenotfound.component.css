@@ -1,0 +1,27 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/orange.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 20rem;
+}
+
+.page .content{
+    text-align: center;
+    width:60rem;
+}
+
+.page .content h3{
+    color:var(--black);  
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.fa{
+    color: #ff7800;
+}
+
+
