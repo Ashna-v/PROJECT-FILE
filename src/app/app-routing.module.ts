@@ -9,6 +9,8 @@ import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { RegisterComponent } from './register/register.component';
 import { AdmindashComponent } from './admin/admindash/admindash.component';
+import { UserdashComponent } from './user/userdash/userdash.component';
+import { StaffdashComponent } from './staff/staffdash/staffdash.component';
 
 
 const routes: Routes = [
@@ -20,7 +22,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'admindash', component: AdmindashComponent },
-
+  { path: 'userdash', component: UserdashComponent },
+  { path: 'staffdash', component: StaffdashComponent },
   { path: '**', component: PagenotfoundComponent},
   
 

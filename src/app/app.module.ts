@@ -15,6 +15,7 @@ import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminModule } from './admin/admin.module';
+import { UserModule } from './user/user.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 
@@ -30,7 +31,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ContactComponent,
     LoginComponent,
     PagenotfoundComponent,
-    RegisterComponent
+    RegisterComponent,
+  
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FormsModule,
     AdminModule,
     ReactiveFormsModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    UserModule
+  
+
     
   ],
   providers: [],

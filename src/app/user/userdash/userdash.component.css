@@ -31,16 +31,12 @@ a{
     text-decoration: none;
 }
 
-#title{
-    color: white;
-}
-
 ul li a{
     display: block;
 }
 
 ul li a:hover{
-    color: #ff7800;
+    color: #555;
 }
 
 ul li ul li{
@@ -51,18 +47,13 @@ ul li:hover ul li{
     display: block;
 }
 
-#sidenav{
-    background-color: white;
+#customer{
+    color: #ff7800;
+    
 }
-
-#headnav{
-    background-color: #2f259f;
-}
-
-li{
-    font-style: italic;
-    font-weight: bold;
-    color: #130f40;
+#customer:hover{
+    color:#130f40;
+    
 }
 
 
